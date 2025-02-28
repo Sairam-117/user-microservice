@@ -1,0 +1,107 @@
+# Ignore Visual Studio and .NET build files
+.vs/
+bin/
+obj/
+out/
+TestResults/
+*.user
+*.suo
+*.cache
+*.pdb
+*.aps
+*.ncb
+*.ilk
+*.exp
+*.log
+*.tlog
+*.lastbuildstate
+*.sdf
+*.opendb
+*.VC.db
+*.dbmdl
+
+# Ignore Rider IDE files
+.idea/
+*.sln.iml
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+**/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore Publish Output
+PublishProfiles/
+App_Data/
+
+# Ignore logs and temporary files
+*.log
+logs/
+*.tlog
+*.dmp
+
+# Ignore environment variables and user secrets
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+.env
+.env.*
+
+# Ignore Docker & Kubernetes files
+**/Dockerfile
+**/docker-compose.*
+**/.dockerignore
+**/k8s/
+**/*.kubeconfig
+
+# Ignore Azure DevOps artifacts
+*.tfstate
+.terraform/
+.cloud/
+
+# Ignore Resharper & Code Analysis files
+*.DotSettings.user
+*_ReSharper.*
+*_CodeAnalysisLog.xml
+stylecop.*
+resharper.xml
+
+# Ignore Azure Key Vault settings
+AzureKeyVault.json
+
+# Ignore database and migration files
+*.mdf
+*.ldf
+Migrations/
+
+# Ignore compiled files
+*.exe
+*.dll
+*.obj
+*.pdb
+*.log
+*.cache
+
+# Ignore GitHub and Azure-specific files
+/.github/
+.azure/
+
+# Ignore coverage reports
+coverage/
+*.coverlet/
+*.coverage
+lcov-report/
+*.trx
+*.csproj.user
+
+# Ignore Rider and VSCode settings
+.idea/
+.vscode/
+*.code-workspace
+
+# Ignore Swagger and API documentation files
+wwwroot/swagger/
+swagger.json
