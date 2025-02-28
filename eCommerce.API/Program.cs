@@ -13,7 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 //KeyVault
-var keyVaultUrl = builder.Configuration["KeyVault:Url"];
+var keyVaultUrl = Environment.GetEnvironmentVariable("KeyVaultUrl");
 
 var client = new SecretClient(new Uri(keyVaultUrl), new DefaultAzureCredential());
 
